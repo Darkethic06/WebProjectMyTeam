@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+/* #------------------------------------navbar styling------------------------------------------# */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f4f4f;
+}
+
+.logodiv {
+  display: flex;
+  margin: 25px;
+}
+.logo {
+  font-size: 38px;
+  color: aliceblue;
+}
+ul {
+  margin-left: 25px;
+  margin-top: 15px;
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 22px;
+  font-size: 22px;
+}
+.btn {
+  font-size: 22px;
+  margin: 30px;
+
+  border-radius: 22px;
+  text-decoration: none;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 8px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+/* #------------------------------------navbar styling ends here------------------------------------------# */
+
+/* #------------------------------------First Section Starts here------------------------------------------# */
+
+.first-section {
+  height: 400px;
+  width: 100%;
+  background-color: #2f4f4f;
+  display: flex;
+}
+
+.heading-div {
+  color: aliceblue;
+  font-size: 65px;
+  width: 50%;
+  padding: 25px;
+  font-weight: 900;
+}
+.span-col {
+  color: #a0522d;
+}
+
+.para-div {
+  color: aliceblue;
+  margin-top: 25px;
+  margin-left: 35px;
+  padding: 45px;
+  width: 400px;
+}
+
+/* #------------------------------------First Section ends here------------------------------------------# */
+
+/* #------------------------------------second Section starts here------------------------------------------# */
+
+.second-section {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1a1d1d;
+}
+
+.sec-head {
+  width: 30%;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.sec-div {
+  color: rgb(255, 255, 255);
+  margin-left: 70px;
+
+  width: 40%;
+}
+
+.div-logo-div {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 55px 22px 55px;
+}
+
+.logo-item {
+  float: left;
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+}
+.logo-item1 {
+  float: left;
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+}
+
+.logo-item2 {
+  float: left;
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+}
+
+.div-logo-sec-head {
+  color: #d67a4f;
+}
+
+.circle {
+  float: left;
+  background-color: #d67a4f;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/*  #------------------------------------second Section ends here------------------------------------------# */
+
+/*  #------------------------------------third Section starts here------------------------------------------# */
+.third-sec {
+  height: 650px;
+  width: 100%;
+  background-color: #2f4f4f;
+}
+
+.third-sec-heading {
+  padding-top: 80px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.third-sec-span {
+  color: aqua;
+}
+
+.user-profiles {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user {
+  height: 300px;
+  width: 370px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.user-name {
+  color: #806051;
+}
+
+.user-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid whitesmoke;
+}
+
+/*  #------------------------------------third Section ends here------------------------------------------# */
+
+/*  #------------------------------------last Section Starts here------------------------------------------# */
+
+.last-sec {
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-sec-head {
+  width: 70%;
+  /* text-align: center; */
+  font-size: 50px;
+}
+#foot-btn {
+  border: 2px solid rgb(10, 3, 39);
+  color: rgb(10, 3, 39);
+}
+
+/*  #------------------------------------last Section ends here------------------------------------------# */
+
+/*  #------------------------------------Footer Section Starts here------------------------------------------# */
+
+.footer-sec {
+  background-color: #1a1d1d;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.foot-sec-nav {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#footer-logo {
+  margin-left: 47px;
+}
+
+.foot-address {
+  margin-left: 55px;
+  color: #8ecece;
+}
+
+.foot-nav-add {
+  display: flex;
+
+  width: 70%;
+}
+
+.foot-icon {
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  text-align: right;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.copy-right {
+  margin-top: 25px;
+  color: #8ecece;
+}
